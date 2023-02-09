@@ -5,9 +5,13 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background: #fffefe9c;
 
+}
 main {
     margin: 60px 150px;
+    
 }
 
 /* header section */
@@ -71,12 +75,12 @@ main {
 }
 
 .container .hero-title h3 {
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
 .container .hero-title p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -84,8 +88,8 @@ main {
     list-style-type: none;
 }
 
-.hero ul li {
-    font-size: 20px;
+.hero-title ul li{
+    font-size: 18px;
 }
 
 .container ul li::before {
@@ -113,6 +117,43 @@ h4 {
     margin: 10px 0;
 }
 
+/* my skills */
+#my-skills{
+    margin: 80px 0 50px 0;
+}
+#my-skills h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    /* margin: 80px 0 50px 0; */
+}
+#my-skills p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.skill-container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .html{
+    width: 90%; background-color: #f44336;
+}
+.css {
+    width: 80%; background-color: #0369bb;
+}
+.js {
+    width: 65%; background-color: #d4c007;
+}
+.py{
+    width: 60%; background-color: #44d904;
+}
 /* contact/subscribe */
 .contact{
     height: 50vh;
