@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 60px 150px;
+}
+
+/* header section */
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-heading {
+    color: white;
+    padding-right: 100px;
+    text-align: right;
+}
+
+.banner-heading h1 {
+    font-size: 50px;
+
+}
+
+.banner-heading p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: rgb(18, 18, 255);
+}
+
+.btn:hover {
+    color: white;
+    background: rgba(21, 21, 162, 0.66);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* hero section */
+.container {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* grid-column-gap: 50px; */
+
+}
+
+.container .hero-img img {
+    height: 80vh;
+}
+
+.container .hero-title h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.container .hero-title p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container ul {
+    list-style-type: none;
+}
+
+.hero ul li {
+    font-size: 20px;
+}
+
+.container ul li::before {
+    content: "\2713";
+    padding-right: 10px;
+    color: rgb(26, 255, 10);
+}
+
+/* my plans */
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.plans {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+}
+
+.plans h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* contact/subscribe */
+.contact{
+    height: 50vh;
+}
+.subscribe {
+    margin-top: 60px;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-size: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 100px 0 0 50px;
+   
+}
+.subscribe h5{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.subscribe .contact-btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: rgb(18, 18, 255);
+}
+.subscribe .contact-btn:hover{
+    color: white;
+    background: rgba(21, 21, 162, 0.66);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* footer */
+footer{
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 150px;
+    color: white;
+}
+footer .left-section{
+    text-align: left;
+}
+footer .left-section h5{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+footer .right-side input{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    margin:10px 0;
+}
+footer small{
+    display: block;
+    padding: 10px 0;
+}
+footer .social-media-icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+footer .right-side .subscribe-btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background: rgb(18, 18, 255);
+    color: rgb(220, 219, 219);
+}
+footer .right-side .subscribe-btn:hover{
+    color: white;
+    background: rgba(21, 21, 162, 0.66);
+    cursor: pointer;
+    transition: 0.5s;
+}
